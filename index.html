@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <title>Scodipoti 100</title>
+  <meta name="author" content="Alessandro Crespi">
+<style>
+
+body {
+ background-color: #702B38;
+ color: #FFF38C;
+ text-align: center;
+ font-size: 100%;
+ width: 100%;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.9);
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+.modal-content, #caption{
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.didascalia {
+  width: 120px;
+  height: 20px;
+  margin: 10px 5px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.square {
+  border-radius: 10px;
+  height: 120px;
+  width: 120px;
+  margin: 5px 5px;
+  background-color: #e1e39f;
+  display: inline-block;
+}
+
+.bottone {
+  width: 120px;
+  height: 120px;
+  background-color: #555;
+  background-repeat: no-repeat;
+  margin: 5px 5px;
+  background-position: center center;
+  display: inline-block;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.bottone:hover {
+  opacity: 0.5;
+  width: 130px;
+  height: 130px;
+}
+
+.linea{
+  height: 3px;
+  width: 100%;
+  margin: 5px 5px;
+  background-color: #e1e39f;
+}
+
+</style>
+</head>
+<body>
+
+<h1 style="font-size:300%;"> 100 COSE SCODIPOTI </h1>
+
+<p><!--Scrite da 1 a 10-->
+  <div class="didascalia"> MEDITARE INSIEME </div>
+  <div class="didascalia"> FARE UNA TORTA </div>
+  <div class="didascalia"> CORSO DI DANZA </div>
+  <div class="didascalia"> GIOCARE A BOWLING </div>
+  <div class="didascalia"> LEGGERE UN LIBRO </div>
+  <div class="didascalia"> VEDERE SPORT </div>
+  <div class="didascalia"> FARE UN BRUNCH </div>
+  <div class="didascalia"> MASSAGGIO DI COPPIA </div>
+  <div class="didascalia"> DEGUSTAZIONE DI VINO</div>
+  <div class="didascalia"> CENA ELEGANTE</div> <br>
+  <div class="square"></div> <!--1-->
+  <img class="bottone" id="myImg" src=img/b2.jpg alt="Torta della Nonna (con Bimby ;)- 19 gennaio 2022">
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+  <img class="bottone" id="myImg" src=img/b6.jpg alt="Parma vs Inter - 8 agosto 2021">
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+</p>
+
+<p><!--Scrite da 11 a 20-->
+  <div class="didascalia"> VISITARE UN VR CAFFÈ </div>
+  <div class="didascalia"> PROVARE UN NUOVO RISTORANTE </div>
+  <div class="didascalia"> SERATA KARAOKE </div>
+  <div class="didascalia"> PASSEGGIATA </div>
+  <div class="didascalia"> ANDARE IN UN CLUB JAZZ </div>
+  <div class="didascalia"> FARE ZIP-LINING </div>
+  <div class="didascalia"> NEGOZIO DELL'USATO </div>
+  <div class="didascalia"> VISITARE UN PLANETARIO </div>
+  <div class="didascalia"> RICREARE PRIMO APPUNTAMENTO </div>
+  <div class="didascalia"> RACCOGLIERE FRUTTA </div><br>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+</p>
+
+<p><!--Scrite da 21 a 30-->
+  <div class="didascalia"> CUCINARE SENZA RICETTA </div>
+  <div class="didascalia"> VISITARE ENPA </div>
+  <div class="didascalia"> ESPLORARE PARCO </div>
+  <div class="didascalia"> DRINK AL ROOFTOP BAR </div>
+  <div class="didascalia"> FARE UNA LUNGA CAMMINATA </div>
+  <div class="didascalia"> CAMPEGGIARE </div>
+  <div class="didascalia"> CENA AL BUIO </div>
+  <div class="didascalia"> TRAMONTO IN SPIAGGIA </div>
+  <div class="didascalia"> GIARDINO BOTANICO </div>
+  <div class="didascalia"> IMPARARE NUOVA LINGUA </div><br>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+</p>
+
+<p><!--Scrite da 31 a 40-->
+  <div class="didascalia"> MONGOLFIERA </div>
+  <div class="didascalia"> PIANTARE UN ALBERO </div>
+  <div class="didascalia"> GIORNO TECH-FREE </div>
+  <div class="didascalia"> PISOLINO INSIEME </div>
+  <div class="didascalia"> MARATONA DI FILM </div>
+  <div class="didascalia"> GUARDARE LE STELLE </div>
+  <div class="didascalia"> PASSEGGIATA A CAVALLO </div>
+  <div class="didascalia"> PATTINARE </div>
+  <div class="didascalia"> YOGA DI COPPIA </div>
+  <div class="didascalia"> TEST DRIVE </div><br>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="bottone b1"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="bottone b2"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+</p>
+
+<p><!--Scrite da 41 a 50-->
+  <div class="didascalia"> SCEGLIERSI UN LIBRO </div>
+  <div class="didascalia"> SERATA TRIVIA </div>
+  <div class="didascalia"> CORSO DI CUCINA </div>
+  <div class="didascalia"> SPETTACOLO COMICO </div>
+  <div class="didascalia"> ALLENARSI INSIEME </div>
+  <div class="didascalia"> FOTO CON RULLINO </div>
+  <div class="didascalia"> CORSO DI PITTURA </div>
+  <div class="didascalia"> FILM AL DRIVE-IN </div>
+  <div class="didascalia"> BARCA A REMI</div>
+  <div class="didascalia"> GIOCHI IN SCATOLA</div><br>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="bottone b1"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="bottone b2"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+</p>
+
+<p><!--Scrite da 51 a 60-->
+  <div class="didascalia"> FARE COCKTAIL </div>
+  <div class="didascalia"> VISITARE MUSEO </div>
+  <div class="didascalia"> FARE ARRAMPIACATA </div>
+  <div class="didascalia"> VISITARE ACQUARIO </div>
+  <div class="didascalia"> SERA VIDEOGAME </div>
+  <div class="didascalia"> CORSO DI CERAMICA </div>
+  <div class="didascalia"> ESPLORARE QUARTIERE </div>
+  <div class="didascalia"> ALBUM CLASSICO </div>
+  <div class="didascalia"> TROVARE I NONNI </div>
+  <div class="didascalia"> CASA SULL'ALBERO </div><br>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="bottone b1"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="bottone b2"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+</p>
+
+<p><!--Scrite da 61 a 70-->
+  <div class="didascalia"> ALBERO GENEALOGIOCO </div>
+  <div class="didascalia"> FARE PUZZLE </div>
+  <div class="didascalia"> ESCAPE ROOM </div>
+  <div class="didascalia"> GUARDARE FOTO VECCHIE </div>
+  <div class="didascalia"> PARCO ACQUATICO </div>
+  <div class="didascalia"> TOUR BIRRERIA </div>
+  <div class="didascalia"> GUARDARE FILM INFANZIA </div>
+  <div class="didascalia"> MERCATO AGRICOLO </div>
+  <div class="didascalia"> VEDERE UN BALLETTO </div>
+  <div class="didascalia"> FARE ESPERIMENTI </div><br>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+</p>
+
+<p><!--Scrite da 71 a 80-->
+  <div class="didascalia"> FARE VOLONTARIATO </div>
+  <div class="didascalia"> SCRIVERE LETTERA </div>
+  <div class="didascalia"> MINI-GOLF </div>
+  <div class="didascalia"> ANDARE CONCERTO </div>
+  <div class="didascalia"> GARA DI AEROPLANINI </div>
+  <div class="didascalia"> FARE CARTOMANZIA </div>
+  <div class="didascalia"> GIORNATA PIGIAMA </div>
+  <div class="didascalia"> GIOCARE A NASCONDINO </div>
+  <div class="didascalia"> GIOCHI DI PRESTIGIO </div>
+  <div class="didascalia"> BICICLETTATA </div><br>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="bottone b1"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="bottone b2"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+</p>
+
+<p><!--Scrite da 81 a 90-->
+  <div class="didascalia"> FARE UNO SCRAPBOOK </div>
+  <div class="didascalia"> ANDARE AL MERCATO </div>
+  <div class="didascalia"> FORTINO DI COPERTE </div>
+  <div class="didascalia"> OBBLIGO O VERITÀ </div>
+  <div class="didascalia"> ROAD TRIP </div>
+  <div class="didascalia"> PAINTBALL </div>
+  <div class="didascalia"> IMPARARE ABILITÀ </div>
+  <div class="didascalia"> PALLE DI NEVE </div>
+  <div class="didascalia"> FARE DA BABYSITTER </div>
+  <div class="didascalia"> TRAMPOLINII </div><br>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="bottone b1"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="bottone b2"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+</p>
+
+<p><!--Scrite da 91 a 100-->
+  <div class="didascalia"> VISITARE CASE </div>
+  <div class="didascalia"> FARE UN TIKTOK </div>
+  <div class="didascalia"> VISITARE UNO ZOO </div>
+  <div class="didascalia"> FARE UN DIY </div>
+  <div class="didascalia"> CAPSULA DEL TEMPO </div>
+  <div class="didascalia"> FARE I TURISTI </div>
+  <div class="didascalia"> PARCO DIVERTIMENTO </div>
+  <div class="didascalia"> GIARDINAGGIO </div>
+  <div class="didascalia"> VEDERE UN MUSICAL </div>
+  <div class="didascalia"> FESTIVAL DI MUSICA </div><br>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="bottone b1"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="bottone b2"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+</p>
+
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content"  id="img01">
+  <div id="caption"></div>
+</div>
+
+
+<script>
+
+  var modal = document.getElementById('myModal');
+  var images = document.getElementsByClassName('bottone');
+  var modalImg = document.getElementById("img01");
+  var captionText = document.getElementById("caption");
+  
+  for (var i = 0; i < images.length; i++) {
+    var img = images[i];
+    img.onclick = function(evt){
+      console.log(evt);
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+  }
+  
+  
+  var span = document.getElementsByClassName("close")[0];
+  
+  span.onclick = function() { 
+    modal.style.display = "none";
+  }
+</script>
+
+</body>
+</html>
