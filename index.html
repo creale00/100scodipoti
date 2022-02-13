@@ -4,7 +4,23 @@
   <meta charset="utf-8">
   <title>Scodipoti 100</title>
   <meta name="author" content="Alessandro Crespi">
-<style>
+
+<script>
+(function(){   
+  if (window.addEventListener)
+  {
+    window.addEventListener("load", nascondi_loading_screen, false);    
+  }else{
+    window.attachEvent("onload", nascondi_loading_screen);
+  }
+})();
+function nascondi_loading_screen()
+{
+  document.getElementById("loading_screen").style.display = 'none';
+}
+</script>
+
+  <style>
 
 body {
  background-color: #702B38;
@@ -122,10 +138,29 @@ a {
   background-color: #e1e39f;
 }
 
+#loading_screen
+{  
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  color: #FFF;  
+  text-align: center;
+  padding: 80px;
+  background-color: #000;
+  backgground-color: rgba(0, 0, 0, .5);
+  box-sizing: border-box;
+}
+  
 </style>
 </head>
 <body>
 
+<div id="loading_screen">
+  <h1>Loading...</h1> 
+</div> 
 <h1 style="font-size:300%;"> 100 COSE SCODIPOTI </h1>
 
 <p><!--Scrite da 1 a 10-->
